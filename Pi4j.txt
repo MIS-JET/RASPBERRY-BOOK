@@ -30,7 +30,7 @@ pi4j -v
 
 #GPIO 控制
 1.bcm2835 樹莓派cpu晶片的C庫函數
-2.wiringPi(Java)、RPi.GPIO(Python)底層是通過linux系統的設備文件操作設備
+2.wiringPi(C)、RPi.GPIO(Python)底層是通過linux系統的設備文件操作設備
 
 參考資源
 安裝Pi4J與基礎範例 https://www.jianshu.com/p/0584f8b01725
