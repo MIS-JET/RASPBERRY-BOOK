@@ -29,7 +29,7 @@ pi4j -v
 1.2以上才認得BCM2835
 
 #GPIO 控制
-1.bcm2835 C Library
+1.bcm2835 樹莓派cpu晶片的C庫函數
 2.wiringPi(Java)、RPi.GPIO(Python)底層是通過linux系統的設備文件操作設備
 
 參考資源
