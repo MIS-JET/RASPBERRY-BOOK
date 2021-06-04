@@ -6,6 +6,8 @@
 必須先安裝
 JDK
 WiringPi
+2.52 以上 Pi 4B
+2.46 以上 Pi 3+
 
 gpio -v
 
@@ -24,7 +26,11 @@ curl -s get.pi4j.com | sudo bash
 
 查看Pi4J 版本
 pi4j -v
+1.2以上才認得BCM2835
 
+#GPIO 控制
+1.bcm2835 C Library
+2.wiringPi(Java)、RPi.GPIO(Python)底層是通過linux系統的設備文件操作設備
 
 參考資源
 安裝Pi4J與基礎範例 https://www.jianshu.com/p/0584f8b01725
