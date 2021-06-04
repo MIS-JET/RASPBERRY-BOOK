@@ -5,6 +5,9 @@ JDK
 WiringPi
 
 
+查看Pi4J 版本
+pi4j -v
+
 
 參考資源
 安裝Pi4J https://www.jianshu.com/p/0584f8b01725
