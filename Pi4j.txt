@@ -1,8 +1,25 @@
+在樹莓派上使用Java控制GPIO, 需借助第三方SDK : Pi4j. Pi4j是使用wiringpi封裝而成, 不僅可操控GPIO, 還可以使用I2C及SPI協定來與硬体設備進行溝通
+
+
 #安裝 Pi4j
 
 必須先安裝
 JDK
 WiringPi
+
+gpio -v
+
+
+安裝git(目前會報錯)
+sudo apt-get update
+sudo apt-get install git
+
+
+測試 WiringPi 安裝是否完成
+gpio -v
+sudo gpio readall
+
+curl -s get.pi4j.com | sudo bash
 
 
 查看Pi4J 版本
@@ -10,5 +27,5 @@ pi4j -v
 
 
 參考資源
-安裝Pi4J https://www.jianshu.com/p/0584f8b01725
+安裝Pi4J與基礎範例 https://www.jianshu.com/p/0584f8b01725
 https://blog.csdn.net/weifengdq/article/details/50988365
