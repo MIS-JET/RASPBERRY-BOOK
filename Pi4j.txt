@@ -54,6 +54,18 @@ SDA		引腳 24		  36
 #SPI
 https://ithelp.ithome.com.tw/articles/10246612
 
+
+
+
+
+
+
+
+
+ /boot/config.txt
+
+
+
 參考資源
 安裝Pi4J與基礎範例 https://www.jianshu.com/p/0584f8b01725
 https://blog.csdn.net/weifengdq/article/details/50988365
