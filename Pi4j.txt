@@ -38,6 +38,19 @@ pi4j -v
 
 
 
+
+             SPI0|SPI1
+-----------------------------------
+3.3V	引腳 1	
+RST		引腳 22	
+GND		引腳 6	
+IRQ		不接
+MISO	引腳 21		  35
+MOSI	引腳 19		  38
+SCK		引腳 23		  40
+SDA		引腳 24		  36
+
+
 #SPI
 https://ithelp.ithome.com.tw/articles/10246612
 
