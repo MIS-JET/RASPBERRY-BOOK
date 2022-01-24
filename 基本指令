@@ -1,0 +1,5 @@
+groupadd
+useradd
+列出image
+	docker image ls
+	docker images
